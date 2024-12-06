@@ -1,0 +1,1 @@
+This repository demonstrates a common issue in React Router v6 where a catch-all route (*) defined before other routes interferes with their rendering.  The solution involves reordering the routes to ensure the catch-all route is the last one, after all the more specific routes are defined. This ensures the catch-all only takes effect when no other routes match the URL.
